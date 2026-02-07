@@ -29,6 +29,7 @@ Update-Database -Context ApplicationDbContext
 
 ## History
 
+- 2026-02-07 Updated packages
 - 2026-01-07 Updated packages
 - 2025-12-01 .NET 10
 - 2025-09-27 Updated packages
