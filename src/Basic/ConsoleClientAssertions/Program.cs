@@ -45,7 +45,7 @@ static async Task<TokenResponse> RequestTokenAsync(SigningCredentials signingCre
             Value = clientToken
         },
 
-        Scope = "mobile",
+        Scope = "mobile", 
     });
 
     if (response.IsError) throw new Exception(response.Error);
@@ -66,8 +66,8 @@ static string CreateClientToken(SigningCredentials credential, string clientId, 
             new Claim(JwtClaimTypes.Subject, clientId),
             new Claim(JwtClaimTypes.IssuedAt, now.ToUnixTimeSeconds().ToString(), ClaimValueTypes.Integer64)
         },
-        now.DateTime,
-        now.AddMinutes(1).DateTime,
+        now.UtcDateTime,
+        now.AddMinutes(3).UtcDateTime,
         credential
     );
 
