@@ -29,6 +29,7 @@ Update-Database -Context ApplicationDbContext
 
 ## History
 
+- 2026-05-09 Updated packages
 - 2026-02-25 Updated packages, fixed UTC bug
 - 2026-02-07 Updated packages
 - 2026-01-07 Updated packages
