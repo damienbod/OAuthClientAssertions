@@ -11,6 +11,6 @@
     <File Path=".github/workflows/dotnet.yml" />
     <File Path="README.md" />
   </Folder>
-  <Project Path="src/GenerateCertiticate/GenerateCertiticate.csproj" />
+  <Project Path="src/GenerateCertificate/GenerateCertificate.csproj" />
   <Project Path="src/identityserver/IdentityServer.csproj" />
 </Solution>
