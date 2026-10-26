@@ -29,6 +29,7 @@ Update-Database -Context ApplicationDbContext
 
 ## History
 
+- 2026-10-26 Updated packages
 - 2026-10-18 Updated packages
 - 2026-07-29 Updated packages
 - 2026-06-05 Updated packages, Update Duende 8.0.0
