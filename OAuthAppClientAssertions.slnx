@@ -1,0 +1,16 @@
+<Solution>
+  <Folder Name="/Basic/">
+    <Project Path="src/Basic/Api/Api.csproj" />
+    <Project Path="src/Basic/ConsoleClientAssertions/ConsoleClientAssertions.csproj" />
+  </Folder>
+  <Folder Name="/DPoP/">
+    <Project Path="src/DPoP/ConsoleDPoPClientAssertions/ConsoleDPoPClientAssertions.csproj" />
+    <Project Path="src/DPoP/DPoPApi/DPoPApi.csproj" />
+  </Folder>
+  <Folder Name="/_solutionsFiles/">
+    <File Path=".github/workflows/dotnet.yml" />
+    <File Path="README.md" />
+  </Folder>
+  <Project Path="src/GenerateCertiticate/GenerateCertiticate.csproj" />
+  <Project Path="src/identityserver/IdentityServer.csproj" />
+</Solution>
